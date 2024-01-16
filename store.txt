@@ -1,0 +1,88 @@
+var splide = new Splide( '.splide', {
+  type   : 'loop',
+  drag   : 'free',
+  snap   : true,
+  perPage: 1,
+} );
+
+splide.mount();
+
+const navLinks = document.querySelectorAll(".nav-item:not(:last-child) .nav-link");
+const showData = document.querySelector(".show-data");
+const cartItem = document.querySelector(".cart");
+const cartCountElement = document.querySelector(".cart-count");
+let nav = document.getElementById("nav");
+let btnHide = document.querySelector(".btnHide");
+
+let product = []
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+const getApi =  async function (){
+  
+  //GET
+  let response = await fetch("./api.json") 
+  let finalApi = await response.json()
+  allPlants = finalApi.plants
+  console.log(allPlants);
+  displayPlants()
+  
+}
+getApi()
+
+function displayPlants(){
+  var list=""
+  for(var i =0 ; i<allPlants.length ;i++){
+      list+=`
+      <div class="col-lg-3">
+      <div class="card">
+        <div class="card-image">
+        <a class="whish-icon" href=""><i class="fa-regular fa-heart"></i></a>
+        <div class="layer">
+        <div class="btnss">
+                    <a class="btn btn-light" href="#">Quick View</a>
+                    <a class="btn btn-light onclick="addToCart(${i})" href="#">Add to Cart</a>
+                </div>
+        </div>
+          <img src="${allPlants[i].image_url}" alt="">
+        </div>
+          <div class="card-body text-center">
+              <p>${allPlants[i].title}<p>
+              <p class="price">${allPlants[i].price}</p>
+          </div>
+      </div>
+  </div>
+      `
+
+  }
+
+  showData.innerHTML = list
+}
+navLinks.forEach((item) => {
+  item.addEventListener("click",function(event){
+    getApi(event.target.textContent)
+  })
+})
+
+function addToCart(index){
+  let cardProduct= (product[index])
+  let founded = cart.find((element)=>{element.plant_id === cardProduct.plant_id})
+
+  if(founded){
+    founded.count++
+  }else{
+    cart.push({...cardProduct,count:1})
+  }
+  localStorage.setItem("cart",JSON.stringify(Cart))
+}
+
+
+
+
+
+
+
+
+
+
+
+

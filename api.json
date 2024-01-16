@@ -1,0 +1,95 @@
+{
+
+"plants":[
+    {
+        "image_url":"./img/1_2.webp",
+        "image_url2":"./img/1_3.webp",
+        "image_url3":"./img/1_4.webp",
+        "title":"Bud Planter",
+        "plant_id":"15486",
+        "price":"$95.00",
+        "count":"1",
+        "description":"Description Finally—a white sneaker for the rest of your life. Whether you’re walking, working, or simply kicking it, the versatile and understated Royale Blanco is going to get you where you..."
+
+    },
+    {
+        "image_url":"./img/2.webp",
+        "image_url2":"./img/2_1.webp",
+        "image_url3":"./img/2_2.webp",
+        "title":"Solstice Planter",
+        "plant_id":"10230",
+        "price":"$115.00",
+        "count":"1",
+        "description":"Premium Materials Blandit parturient adipiscing faucibus fringilla vestibulum ultrices integer dolor parturient parturient at porta platea inceptos. Habitant dui ut fringilla eleifend tincidunt scelerisque porta a tortor adipiscing ullamcorper etiam imperdiet..."
+
+    },
+    {
+        "image_url":"./img/3.webp",
+        "image_url2":"./img/3_1.webp",
+        "image_url3":"./img/3_2.webp",
+        "title":"Spring Planter",
+        "plant_id":"89655",
+        "price":"$89.00",
+        "count":"1",
+        "description":"Description Finally—a white sneaker for the rest of your life. Whether you’re walking, working, or simply kicking it, the versatile and understated Royale Blanco is going to get you where you..."
+
+    },
+    {
+        "image_url":"./img/4.webp",
+        "image_url2":"./img/4_1.webp",
+        "image_url3":"./img/4_2.webp",
+        "title":"Speckled Tray",
+        "plant_id":"58792",
+        "price":"$19.00",
+        "count":"1",
+        "description":"Premium Materials Blandit parturient adipiscing faucibus fringilla vestibulum ultrices integer dolor parturient parturient at porta platea inceptos. Habitant dui ut fringilla eleifend tincidunt scelerisque porta a tortor adipiscing ullamcorper etiam imperdiet..."
+
+    },
+    {
+        "image_url":"./img/5_eb317c09-5e54-4f83-8659-4c694d3018f1.webp",
+        "image_url2":"./img/5_1.webp",
+        "image_url3":"./img/5_2.webp",
+        "title":"Roma Planter",
+        "plant_id":"63214",
+        "price":"$95.00",
+        "count":"1",
+        "description":"Description Finally—a white sneaker for the rest of your life. Whether you’re walking, working, or simply kicking it, the versatile and understated Royale Blanco is going to get you where you..."
+
+    },
+    {
+        "image_url":"./img/6.webp",
+        "image_url2":"./img/6_1.webp",
+        "image_url3":"./img/6_2.webp",
+        "title":"Archie Planter",
+        "plant_id":"54121",
+        "price":"$69.00",
+        "count":"1",
+        "description":"Description Finally—a white sneaker for the rest of your life. Whether you’re walking, working, or simply kicking it, the versatile and understated Royale Blanco is going to get you where you..."
+    },
+    {
+        "image_url":"./img/7.webp",
+        "image_url2":"./img/7_1.webp",
+        "image_url3":"./img/7_2.webp",
+        "title":"Small Archie Planter",
+        "plant_id":"87456",
+        "price":"$45.00",
+        "count":"1",
+        "description":"Premium Materials Blandit parturient adipiscing faucibus fringilla vestibulum ultrices integer dolor parturient parturient at porta platea inceptos. Habitant dui ut fringilla eleifend..."
+    },
+    {
+        "image_url":"./img/8.webp",
+        "image_url2":"./img/8_1.webp",
+        "image_url3":"./img/8_2.webp",
+        "title":"Archie Planter Set",
+        "plant_id":"25486",
+        "price":"$89.00",
+        "count":"1",
+        "description":"Description Finally—a white sneaker for the rest of your life. Whether you’re walking, working, or simply kicking it, the versatile and understated Royale Blanco is going to get you where you..."
+
+    }
+
+
+
+]
+}
+
